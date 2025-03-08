@@ -1,6 +1,6 @@
 fastapi==0.104.1
 uvicorn==0.24.0
-pydantic==2.4.2 --no-binary pydantic
+pydantic==1.10.8  # Downgrade to v1 which doesn't use Rust
 torch==2.6.0
 fasttext-wheel==0.9.2
 numpy==1.26.4
